@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Red Hat';
+  src: url(/public/fonts/RedHatDisplayRegular.ttf)format('truetype');
+}
+
+@font-face {
+  font-family: 'Red Hat Bold';
+  src: url(/public/fonts/RedHatDisplayBold.ttf)format('truetype');
+}
+
+@font-face {
+  font-family: 'Red Hat Italic';
+  src: url(/public/fonts/RedHatDisplayItalic.ttf)format('truetype');
+}
+
+
+body {
+  @apply bg-[#FAF9F6] text-gray-800 font-redhat; 
+}
